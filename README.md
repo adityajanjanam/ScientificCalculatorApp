@@ -37,8 +37,6 @@ A mobile-friendly scientific calculator app developed using **Expo** and **React
 
 ```
 ScientificCalculatorApp/
-│
-├── assets/              # Static assets like images and icons.
 ├── App.js               # Main application component.
 ├── app.json             # Expo configuration file.
 ├── index.js             # Entry point for the app.
