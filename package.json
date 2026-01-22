@@ -9,7 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest",
-    "export:web": "npx expo export --platform web --output-dir dist --public-url https://adityajanjanam.github.io/ScientificCalculatorApp"
+    "export:web": "npx expo export --platform web --output-dir dist --public-url https://adityajanjanam.github.io/ScientificCalculatorApp",
+    "export:web:vercel": "npx expo export --platform web --output-dir dist"
   },
   "dependencies": {
     "expo": "~54.0.0",

@@ -1,28 +1,40 @@
 {
   "expo": {
-    "name": "ScientificCalculatorApp",
-    "slug": "ScientificCalculatorApp",
+    "name": "Scientific Calculator App",
+    "slug": "scientific-calculator-app",
     "version": "1.0.0",
+    "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#020617"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.scientificcalculatorapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#020617"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "def78310-33bc-4986-927f-1729565718cd"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/def78310-33bc-4986-927f-1729565718cd"
     }
   }
 }
