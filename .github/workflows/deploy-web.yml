@@ -36,6 +36,11 @@ jobs:
       - name: Export Expo web build
         run: npm run export:web:gh-pages
 
+      - name: Fix asset paths for GitHub Pages
+        run: |
+          sed -i 's|href="/|href="/ScientificCalculatorApp/|g' dist/index.html
+          sed -i 's|src="/|src="/ScientificCalculatorApp/|g' dist/index.html
+
       - name: Add .nojekyll
         run: touch dist/.nojekyll
 
