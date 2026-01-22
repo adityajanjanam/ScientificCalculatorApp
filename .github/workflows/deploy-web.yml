@@ -35,6 +35,8 @@ jobs:
 
       - name: Export Expo web build
         run: npm run export:web
+        env:
+          EXPO_PUBLIC_URL: /ScientificCalculatorApp
 
       - name: Add .nojekyll
         run: touch dist/.nojekyll
