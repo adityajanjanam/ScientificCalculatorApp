@@ -38,8 +38,9 @@ jobs:
 
       - name: Fix asset paths for GitHub Pages
         run: |
-          sed -i 's|href="/|href="/ScientificCalculatorApp/|g' dist/index.html
-          sed -i 's|src="/|src="/ScientificCalculatorApp/|g' dist/index.html
+          find dist -name "*.html" -type f -exec sed -i 's|href="/|href="/ScientificCalculatorApp/|g' {} +
+          find dist -name "*.html" -type f -exec sed -i 's|src="/|src="/ScientificCalculatorApp/|g' {} +
+          find dist -name "*.js" -type f -exec sed -i 's|"/|"/ScientificCalculatorApp/|g' {} +
 
       - name: Add .nojekyll
         run: touch dist/.nojekyll
