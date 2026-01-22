@@ -14,17 +14,20 @@ A mobile-friendly scientific calculator app developed using **Expo** and **React
 ## Installation
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/adityajanjanam/ScientificCalculatorApp.git
    cd ScientificCalculatorApp
    ```
 
 2. **Install Dependencies**:
+
    ```bash
    npm install
    ```
 
 3. **Run the App**:
+
    ```bash
    npm start
    ```
@@ -41,7 +44,7 @@ npm test
 
 ## Project Structure
 
-```
+```text
 ScientificCalculatorApp/
 ├── App.js                  # Main application component
 ├── app.json                # Expo configuration
@@ -52,7 +55,7 @@ ScientificCalculatorApp/
 │   └── calc.test.js
 ├── assets/                 # Images and icons
 └── src/
-    └── calc.js             # Calculator logic
+   └── calc.js             # Calculator logic
 ```
 
 ## Technologies Used

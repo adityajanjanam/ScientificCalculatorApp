@@ -29,6 +29,7 @@ export default function ScientificCalculator() {
       setHistory((prev) => [{ expression: display, result: result.toString() }, ...prev].slice(0, 6));
       setDisplay(result.toString());
     } catch (err) {
+      console.error('Calculation failed', err);
       setDisplay("Error");
     }
   };
